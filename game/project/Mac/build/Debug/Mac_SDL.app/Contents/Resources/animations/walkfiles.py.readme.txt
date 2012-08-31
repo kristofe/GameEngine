@@ -1,0 +1,3 @@
+the way to convert an entire directory structure is to use the command:
+python walkfiles.py ./minimal,"*.cs;",dos2unix
+

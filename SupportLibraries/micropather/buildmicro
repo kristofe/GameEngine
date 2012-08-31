@@ -1,0 +1,23 @@
+doxygen dox
+cd ..
+#get the manifest from CVS
+python ./lilith/cvsmanifest.py micropather > manifest
+#add the docs
+ls -1 -r ./micropather/docs/* >> manifest
+
+#ls -1 -r ./micropather/Makefile >> manifest        # should be in the CVS manifest
+#ls -1 -r ./micropather/MakefileSpeed >> manifest   # should be in the CVS manifest	
+
+#patch the end of lines
+unix2dos ./micropather/*.dsw
+unix2dos ./micropather/*.dsp
+unix2dos ./micropather/*.dev
+
+zip -9 -q -@ micropather_1_1_1.zip < manifest
+
+#unpatch
+dos2unix ./micropather/*.dsw
+dos2unix ./micropather/*.dsp
+dos2unix ./micropather/*.dev
+
+cd micropather

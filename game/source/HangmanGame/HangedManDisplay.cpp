@@ -1,0 +1,52 @@
+#include "HangedManDisplay.h"
+#include "Platform.h"
+#include "Game.h"
+
+////////////////////////////////////////////////////////////////////////////////
+HangedManDisplay::HangedManDisplay(TextureFont* texFont)
+						:TextureText(texFont)
+{
+	mDisplayText = "Mistakes: 0, Max: 7";
+	//SetString("FPS:  ");
+	
+	
+}
+////////////////////////////////////////////////////////////////////////////////
+HangedManDisplay::HangedManDisplay(PersistentData& storageData)
+:TextureText(storageData)
+{
+	mDisplayText = "Mistakes: 0, Max: 7";
+	SetString(mDisplayText.c_str());
+	
+}
+////////////////////////////////////////////////////////////////////////////////
+void HangedManDisplay::Serialize(PersistentData& storageData)
+{
+	TextureText::Serialize(storageData);
+	storageData.SetName("HangedManDisplay");
+
+}
+////////////////////////////////////////////////////////////////////////////////
+void HangedManDisplay::DeSerialize(PersistentData& storageData)
+{
+	TextureText::DeSerialize(storageData);
+	
+}
+////////////////////////////////////////////////////////////////////////////////
+void HangedManDisplay::SetDisplayText(const char* s)
+{
+	mDisplayText = s;
+	SetString(mDisplayText.c_str());
+}
+////////////////////////////////////////////////////////////////////////////////
+void HangedManDisplay::SetDisplayText(std::string s)
+{
+	mDisplayText = s;
+	SetString(mDisplayText.c_str());
+}
+////////////////////////////////////////////////////////////////////////////////
+std::string HangedManDisplay::GetDisplayText()
+{
+	return mDisplayText;
+}
+////////////////////////////////////////////////////////////////////////////////

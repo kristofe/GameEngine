@@ -1,0 +1,87 @@
+10
+
+dir
+225
+http://kristofe@blackicegamesnyc.com/CODE/GameEngine/SupportLibraries/SDL1.3/SDL/XCodeiPhoneOS/Template/SDL%20Application
+http://kristofe@blackicegamesnyc.com/CODE
+
+
+
+2009-11-24T02:20:58.738357Z
+170
+kristofe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+31bfd9f2-d9d4-4252-bc5b-d26973c5990d
+
+build
+dir
+
+Info.plist
+file
+
+
+
+
+2009-11-24T13:32:38.000000Z
+b326137fdc257faebfe6248010a46546
+2009-11-24T02:20:58.738357Z
+170
+kristofe
+
+main.c
+file
+
+
+
+
+2009-11-24T13:32:38.000000Z
+58d11bcde40b8426be5fc83dbfc86c72
+2009-11-24T02:20:58.738357Z
+170
+kristofe
+
+Default.png
+file
+
+
+
+
+2009-11-24T13:32:38.000000Z
+ca6e52012e40927796e277dd6c008054
+2009-11-24T02:20:58.738357Z
+170
+kristofe
+has-props
+
+Icon.png
+file
+
+
+
+
+2009-11-24T13:32:38.000000Z
+37892b4ace1fec231d05dfaaef39db01
+2009-11-24T02:20:58.738357Z
+170
+kristofe
+has-props
+
+Classes
+dir
+
+___PROJECTNAME___.xcodeproj
+dir
+

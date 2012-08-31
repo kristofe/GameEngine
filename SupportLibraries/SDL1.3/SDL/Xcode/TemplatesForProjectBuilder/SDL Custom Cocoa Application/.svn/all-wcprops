@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/CODE/!svn/ver/170/GameEngine/SupportLibraries/SDL1.3/SDL/Xcode/TemplatesForProjectBuilder/SDL%20Custom%20Cocoa%20Application
+END
+MyController.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/CODE/!svn/ver/170/GameEngine/SupportLibraries/SDL1.3/SDL/Xcode/TemplatesForProjectBuilder/SDL%20Custom%20Cocoa%20Application/MyController.h
+END
+MyCustomView.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/CODE/!svn/ver/170/GameEngine/SupportLibraries/SDL1.3/SDL/Xcode/TemplatesForProjectBuilder/SDL%20Custom%20Cocoa%20Application/MyCustomView.h
+END
+SDLMain.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/CODE/!svn/ver/170/GameEngine/SupportLibraries/SDL1.3/SDL/Xcode/TemplatesForProjectBuilder/SDL%20Custom%20Cocoa%20Application/SDLMain.m
+END
+MyCustomWindow.m
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/CODE/!svn/ver/170/GameEngine/SupportLibraries/SDL1.3/SDL/Xcode/TemplatesForProjectBuilder/SDL%20Custom%20Cocoa%20Application/MyCustomWindow.m
+END
+prefix.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/CODE/!svn/ver/170/GameEngine/SupportLibraries/SDL1.3/SDL/Xcode/TemplatesForProjectBuilder/SDL%20Custom%20Cocoa%20Application/prefix.h
+END
+MyController.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/CODE/!svn/ver/170/GameEngine/SupportLibraries/SDL1.3/SDL/Xcode/TemplatesForProjectBuilder/SDL%20Custom%20Cocoa%20Application/MyController.m
+END
+icon.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/CODE/!svn/ver/170/GameEngine/SupportLibraries/SDL1.3/SDL/Xcode/TemplatesForProjectBuilder/SDL%20Custom%20Cocoa%20Application/icon.bmp
+END
+MyCustomView.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/CODE/!svn/ver/170/GameEngine/SupportLibraries/SDL1.3/SDL/Xcode/TemplatesForProjectBuilder/SDL%20Custom%20Cocoa%20Application/MyCustomView.m
+END
+SDLMain.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/CODE/!svn/ver/170/GameEngine/SupportLibraries/SDL1.3/SDL/Xcode/TemplatesForProjectBuilder/SDL%20Custom%20Cocoa%20Application/SDLMain.h
+END
+MyCustomWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/CODE/!svn/ver/170/GameEngine/SupportLibraries/SDL1.3/SDL/Xcode/TemplatesForProjectBuilder/SDL%20Custom%20Cocoa%20Application/MyCustomWindow.h
+END

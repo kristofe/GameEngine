@@ -1,0 +1,73 @@
+10
+
+dir
+225
+http://kristofe@blackicegamesnyc.com/CODE/GameEngine/SupportLibraries/SDL1.3/SDL/Xcode/TemplatesForProjectBuilder/SDL%20OpenGL%20Application
+http://kristofe@blackicegamesnyc.com/CODE
+
+
+
+2009-11-24T02:20:58.738357Z
+170
+kristofe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+31bfd9f2-d9d4-4252-bc5b-d26973c5990d
+
+atlantis
+dir
+
+SDLMain.m
+file
+
+
+
+
+2009-11-24T13:32:28.000000Z
+5d74ab34773dfea38aab91dc21880658
+2009-11-24T02:20:58.738357Z
+170
+kristofe
+
+SDL OpenGL App.pbproj
+dir
+
+main.c
+file
+
+
+
+
+2009-11-24T13:32:28.000000Z
+217dab511d68e4b1a9b272bd850d8195
+2009-11-24T02:20:58.738357Z
+170
+kristofe
+
+SDLMain.h
+file
+
+
+
+
+2009-11-24T13:32:28.000000Z
+6f2f2d37cdd7c4b27d3fa991ff3f641b
+2009-11-24T02:20:58.738357Z
+170
+kristofe
+
+English.lproj
+dir
+

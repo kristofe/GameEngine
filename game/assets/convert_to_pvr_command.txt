@@ -1,0 +1,3 @@
+/texturetool -e PVRTC -p aPreview.png -o metaball.pvr -f PVR metaball.png
+../../texturetool -e PVRTC --bits-per-pixel-2 -o movie_test_00.pvr -f PVR movie_test_00.png
+../../texturetool -e PVRTC --bits-per-pixel-4 -o movie_test_00.pvr -f PVR movie_test_00.png

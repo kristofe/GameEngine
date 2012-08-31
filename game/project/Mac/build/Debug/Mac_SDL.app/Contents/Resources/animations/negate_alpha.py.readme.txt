@@ -1,0 +1,4 @@
+the way to convert a part of an entire directory structure is to use the command:
+python negate_alpha.py ".","hangedClip*.png"
+
+

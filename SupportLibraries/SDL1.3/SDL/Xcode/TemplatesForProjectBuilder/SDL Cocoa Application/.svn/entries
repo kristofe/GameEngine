@@ -1,0 +1,73 @@
+10
+
+dir
+225
+http://kristofe@blackicegamesnyc.com/CODE/GameEngine/SupportLibraries/SDL1.3/SDL/Xcode/TemplatesForProjectBuilder/SDL%20Cocoa%20Application
+http://kristofe@blackicegamesnyc.com/CODE
+
+
+
+2009-11-24T02:20:58.738357Z
+170
+kristofe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+31bfd9f2-d9d4-4252-bc5b-d26973c5990d
+
+SDLMain.m
+file
+
+
+
+
+2009-11-24T13:32:28.000000Z
+fc256c1a410a9f27892a2bc4fc611e22
+2009-11-24T02:20:58.738357Z
+170
+kristofe
+
+SDL Cocoa App.pbproj
+dir
+
+main.c
+file
+
+
+
+
+2009-11-24T13:32:28.000000Z
+f246f46effba65758747dc5669921686
+2009-11-24T02:20:58.738357Z
+170
+kristofe
+
+SDLMain.h
+file
+
+
+
+
+2009-11-24T13:32:28.000000Z
+3e014b3c24793a001db3ebb58265b264
+2009-11-24T02:20:58.738357Z
+170
+kristofe
+
+English.lproj
+dir
+
+SDLMain.nib
+dir
+

@@ -1,0 +1,3 @@
+for a 1024x1024 texture you can fit 3.2 images across and 7.3 down.  This mean one can squeeze 3x7 or 21 frames per texture.
+
+however since there are 24 frames we are going to need to swap textures... so just make the textures power of two. 

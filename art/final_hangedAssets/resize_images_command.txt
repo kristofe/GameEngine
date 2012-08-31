@@ -1,0 +1,1 @@
+convert loading_screen_v1.png -gravity SouthWest -extent 512x512 loading_screen_512.png
