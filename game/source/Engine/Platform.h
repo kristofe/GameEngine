@@ -7,10 +7,15 @@
  *
  */
 
-#ifdef TARGET_OS_IPHONE
-	#include "Platform_iPhone.h"
-#elif TARGET_OS_MAC
-	#include "Platform_Mac.h"
-#else
+#ifdef TARGETIPHONE
+
+#include "Platform_iPhone.h"
+#endif
+#ifdef TARGETMAC
+
+#include "Platform_Mac.h"
+#endif
+#ifdef WIN32
+how about this
 	#include "Platform_Win32.h"
 #endif

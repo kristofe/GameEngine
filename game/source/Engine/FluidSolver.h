@@ -17,7 +17,7 @@
 
 #include "Globals.h"
 
-#ifdef TARGET_OS_IPHONE
+#ifdef TARGETIPHONE
 #pragma arm
 #import <OpenGLES/ES1/gl.h>
 #elif WIN32

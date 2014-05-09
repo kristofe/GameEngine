@@ -6,7 +6,7 @@
  *  Copyright 2008 __MyCompanyName__. All rights reserved.
  *
  */
-#ifdef TARGET_OS_IPHONE
+#ifdef TARGETIPHONE
 #import <OpenGLES/ES1/gl.h>
 #import <OpenGLES/ES1/glext.h>
 #import "Platform.h"

@@ -1,6 +1,6 @@
 #include <assert.h>
-#include "SDL.h"
-#ifndef TARGET_OS_IPHONE
+#include  <SDL2/SDL.h>
+#ifndef TARGETIPHONE
 #include "SDL_Image.h"
 //#include "ImageUtils.h"
 #endif
@@ -532,7 +532,7 @@ void RendererObjectFactory::ReadTextureFromDisk(std::string filename, Texture& t
 
 	tex.mSourceFileName = fullpath;
 	tex.mShortFileName = filename;
-#ifndef TARGET_OS_IPHONE
+#ifndef TARGETIPHONE
 	read_png_file(fullpath.c_str(),tex);
 	/*
     SDL_Surface* surface = IMG_Load( fullpath.c_str() );  

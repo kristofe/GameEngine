@@ -1,10 +1,10 @@
 #ifndef _PIPELINE_TOOLS_H
 #define _PIPELINE_TOOLS_H
 
-#ifndef TARGET_OS_IPHONE
+#ifndef TARGETIPHONE
 #include <map>
 #include <string>
-#include "SDL.h"
+#include <SDL2/SDL.h>
 #include "SDL_Image.h"
 #include "libpng/png.h"
 
@@ -26,5 +26,5 @@ private:
 
 };
 
-#endif//TARGET_OS_IPHONE
+#endif//TARGETIPHONE
 #endif //_PIPELINE_TOOLS_H

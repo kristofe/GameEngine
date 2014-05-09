@@ -17,8 +17,8 @@
 #include "Renderer.h"
 
 
-#include "SDL.h"
-#ifdef TARGET_OS_IPHONE
+#include <SDL2/SDL.h>
+#ifdef TARGETIPHONE
 #include <OpenGLES/ES1/gl.h>
 #else
 //#include "SDL_opengl.h"
@@ -61,7 +61,7 @@ class RendererGL : public Renderer
 		void BindRenderBuffer(int renderBufferID){};
 	protected:
 		/* SDL window */
-		SDL_WindowID mWindow;
+		SDL_Window *mWindow;
 		/* SDL GL context, binded to SDL window */
 		SDL_GLContext mGLContext;
 

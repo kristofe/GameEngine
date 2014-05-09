@@ -50,7 +50,7 @@ public:
 	virtual std::string DebugOutput()
 	{
 		char buf[256];
-		sprintf(buf, "%d\tTexture\tName:%s\tmHardwareID:%d\tKeepPixelData:%s\tPixelPointerAddress:%08x\tDelayLoad:%s",mGameID,mName.c_str(),mHardwareID,mKeepLocalPixelData?"true":"false",(unsigned int)mPixelData,mDelayLoad?"true":"false");
+		sprintf(buf, "%d\tTexture\tName:%s\tmHardwareID:%d\tKeepPixelData:%s\tPixelPointerAddress:%08x\tDelayLoad:%s",mGameID,mName.c_str(),mHardwareID,mKeepLocalPixelData?"true":"false",(unsigned int*)mPixelData,mDelayLoad?"true":"false");
 		std::string s = buf;
 		return s;
 	}

@@ -5,13 +5,13 @@
 #include <stdarg.h>
 
 #define PNG_DEBUG 3
-#ifdef TARGET_OS_IPHONE
+#ifdef TARGETIPHONE
 #include "png.h"
 #include <OpenGLES/ES1/gl.h>
 //#include <SDL_opengles.h>
 #else
 #include <libpng/png.h>
-#include "SDL_opengl.h"
+#include <SDL2/SDL_opengl.h>
 #endif
 #include "Texture.h"
 

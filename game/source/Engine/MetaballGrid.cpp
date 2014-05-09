@@ -174,7 +174,7 @@ void MetaballGrid::setUVs(float * vals)
 
 			
 			float scaling = 7.5f;
-#ifdef TARGET_OS_IPHONE
+#ifdef TARGETIPHONE
 			float u2 = 0.5f*(vec1Z*scaling*orientation.x) + 0.5f;
 			float v2 = 0.5f*(vec2Z*scaling*orientation.y) + 0.5f;
 #else

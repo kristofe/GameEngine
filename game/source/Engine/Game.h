@@ -76,8 +76,8 @@ public:
 	}
 	
 	void DumpDebugData();
-	void TestLua();
-	static void TestLuaCallback();
+	//void TestLua();
+	//static void TestLuaCallback();
 	
 private:
 	//Remove Copy Constructor and assignment operator

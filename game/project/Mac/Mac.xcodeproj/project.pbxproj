@@ -3,14 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 44;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
-		002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
 		002F3C0109D093BD00EBEB88 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F3C0009D093BD00EBEB88 /* OpenGL.framework */; };
-		002F3C6109D0951E00EBEB88 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F3C6009D0951E00EBEB88 /* GLUT.framework */; };
 		4D0037DC1206D19000497A2F /* DebugText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D0037DA1206D19000497A2F /* DebugText.cpp */; };
 		4D0037E51206D1BB00497A2F /* SimpleParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D0037E31206D1BB00497A2F /* SimpleParticleSystem.cpp */; };
 		4D0ADB6F103CAFD000190869 /* HangedManDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D0ADB6D103CAFD000190869 /* HangedManDisplay.cpp */; };
@@ -33,7 +30,6 @@
 		4D38F00B1028EFC300EA5A90 /* IvCapsule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D38F0031028EFC300EA5A90 /* IvCapsule.cpp */; };
 		4D38F00C1028EFC300EA5A90 /* IvCovariance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D38F0051028EFC300EA5A90 /* IvCovariance.cpp */; };
 		4D38F00D1028EFC300EA5A90 /* IvOBB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D38F0071028EFC300EA5A90 /* IvOBB.cpp */; };
-		4D4220080FCD23FF00987B8A /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4220070FCD23FF00987B8A /* SDL_image.framework */; };
 		4D59A1DD100E780E00BF3A82 /* XMLTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D59A1DC100E780E00BF3A82 /* XMLTester.cpp */; };
 		4D59A1E6100E827100BF3A82 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D59A1E0100E827100BF3A82 /* tinystr.cpp */; };
 		4D59A1E7100E827100BF3A82 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D59A1E2100E827100BF3A82 /* tinyxml.cpp */; };
@@ -107,11 +103,17 @@
 		4D8B5A5610ABCCCE00BAC22D /* ScratchDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B5A5410ABCCCE00BAC22D /* ScratchDisplay.cpp */; };
 		4D8B5A5910ABCCE600BAC22D /* RenderObjectKiller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B5A5710ABCCE600BAC22D /* RenderObjectKiller.cpp */; };
 		4D8B5A5E10ABCD5600BAC22D /* scratches_states in Resources */ = {isa = PBXBuildFile; fileRef = 4D8B5A5D10ABCD5600BAC22D /* scratches_states */; };
-		4D93C5011206D330006A48CC /* SimpleParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D93C4FF1206D330006A48CC /* SimpleParticleSystem.cpp */; };
 		4D9665D110AAFB9400CA7B1F /* SprayAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D9665CF10AAFB9400CA7B1F /* SprayAnimation.cpp */; };
 		4D96E29A1073F29F007A810B /* sphere_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D96E2991073F29F007A810B /* sphere_map.png */; };
 		4DB379650FCD1C4D003140CF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB379640FCD1C4D003140CF /* CoreData.framework */; };
 		4DB7F87C102344F800F5896B /* LetterManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7F87B102344F800F5896B /* LetterManager.cpp */; };
+		4DBC6481191D8537003DCC3B /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBC6480191D8537003DCC3B /* liblua.a */; };
+		4DBC6A07191D8944003DCC3B /* libBulletDynamics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBC6A06191D8944003DCC3B /* libBulletDynamics.a */; };
+		4DBC6A09191D8986003DCC3B /* libBulletCollision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBC6A08191D8986003DCC3B /* libBulletCollision.a */; };
+		4DBC6A0B191D8992003DCC3B /* libLinearMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBC6A0A191D8992003DCC3B /* libLinearMath.a */; };
+		4DBC6A0E191D8A62003DCC3B /* PhysicsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC6A0C191D8A62003DCC3B /* PhysicsManager.cpp */; };
+		4DBC6A11191D8AAE003DCC3B /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC6A0F191D8AAE003DCC3B /* Cube.cpp */; };
+		4DBC6A14191D8AC3003DCC3B /* TImeManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC6A12191D8AC3003DCC3B /* TImeManager.cpp */; };
 		4DC114B71044B90D009AFC4F /* LetterDripAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DC114B51044B90D009AFC4F /* LetterDripAnimation.cpp */; };
 		4DC114BC1044B929009AFC4F /* LetterDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DC114B81044B929009AFC4F /* LetterDisplay.cpp */; };
 		4DC114BD1044B929009AFC4F /* LetterDisplayAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DC114BA1044B929009AFC4F /* LetterDisplayAnimation.cpp */; };
@@ -184,6 +186,8 @@
 		4DFA627C10657E9500B3C987 /* Perlin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA627510657E9500B3C987 /* Perlin.cpp */; };
 		4DFA627D10657E9500B3C987 /* ScreenFader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA627710657E9500B3C987 /* ScreenFader.cpp */; };
 		4DFA627E10657E9500B3C987 /* SequenceDelayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA627910657E9500B3C987 /* SequenceDelayer.cpp */; };
+		4DFB0282191D7D0900AC6648 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFB0280191D7D0900AC6648 /* SDL2_image.framework */; };
+		4DFB0283191D7D0900AC6648 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFB0281191D7D0900AC6648 /* SDL2.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -194,7 +198,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */,
 			);
 			name = "Copy Frameworks into .app bundle";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,9 +205,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		002F39F909D0881F00EBEB88 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Library/Frameworks/SDL.framework; sourceTree = "<absolute>"; };
 		002F3C0009D093BD00EBEB88 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		002F3C6009D0951E00EBEB88 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../../../../../../../../System/Library/Frameworks/GLUT.framework; sourceTree = SOURCE_ROOT; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -248,7 +249,6 @@
 		4D38F0061028EFC300EA5A90 /* IvCovariance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvCovariance.h; sourceTree = "<group>"; };
 		4D38F0071028EFC300EA5A90 /* IvOBB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IvOBB.cpp; sourceTree = "<group>"; };
 		4D38F0081028EFC300EA5A90 /* IvOBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvOBB.h; sourceTree = "<group>"; };
-		4D4220070FCD23FF00987B8A /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = /Library/Frameworks/SDL_image.framework; sourceTree = "<absolute>"; };
 		4D59A1DB100E780E00BF3A82 /* XMLTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLTester.h; sourceTree = "<group>"; };
 		4D59A1DC100E780E00BF3A82 /* XMLTester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XMLTester.cpp; sourceTree = "<group>"; };
 		4D59A1E0100E827100BF3A82 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
@@ -386,14 +386,22 @@
 		4D8B5A5710ABCCE600BAC22D /* RenderObjectKiller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderObjectKiller.cpp; sourceTree = "<group>"; };
 		4D8B5A5810ABCCE600BAC22D /* RenderObjectKiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderObjectKiller.h; sourceTree = "<group>"; };
 		4D8B5A5D10ABCD5600BAC22D /* scratches_states */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scratches_states; path = ../../assets/scratches_states; sourceTree = SOURCE_ROOT; };
-		4D93C4FF1206D330006A48CC /* SimpleParticleSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleParticleSystem.cpp; sourceTree = "<group>"; };
-		4D93C5001206D330006A48CC /* SimpleParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleParticleSystem.h; sourceTree = "<group>"; };
 		4D9665CF10AAFB9400CA7B1F /* SprayAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SprayAnimation.cpp; path = HangmanGame/SprayAnimation.cpp; sourceTree = "<group>"; };
 		4D9665D010AAFB9400CA7B1F /* SprayAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SprayAnimation.h; path = HangmanGame/SprayAnimation.h; sourceTree = "<group>"; };
 		4D96E2991073F29F007A810B /* sphere_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sphere_map.png; path = ../../assets/sphere_map.png; sourceTree = SOURCE_ROOT; };
 		4DB379640FCD1C4D003140CF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		4DB7F87A102344F800F5896B /* LetterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterManager.h; sourceTree = "<group>"; };
 		4DB7F87B102344F800F5896B /* LetterManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LetterManager.cpp; sourceTree = "<group>"; };
+		4DBC6480191D8537003DCC3B /* liblua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblua.a; sourceTree = "<group>"; };
+		4DBC6A06191D8944003DCC3B /* libBulletDynamics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBulletDynamics.a; path = "../../../SupportLibraries/bullet-2.82/src/BulletDynamics/libBulletDynamics.a"; sourceTree = "<group>"; };
+		4DBC6A08191D8986003DCC3B /* libBulletCollision.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBulletCollision.a; path = "../../../SupportLibraries/bullet-2.82/src/BulletCollision/libBulletCollision.a"; sourceTree = "<group>"; };
+		4DBC6A0A191D8992003DCC3B /* libLinearMath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLinearMath.a; path = "../../../SupportLibraries/bullet-2.82/src/LinearMath/libLinearMath.a"; sourceTree = "<group>"; };
+		4DBC6A0C191D8A62003DCC3B /* PhysicsManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhysicsManager.cpp; sourceTree = "<group>"; };
+		4DBC6A0D191D8A62003DCC3B /* PhysicsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsManager.h; sourceTree = "<group>"; };
+		4DBC6A0F191D8AAE003DCC3B /* Cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cube.cpp; sourceTree = "<group>"; };
+		4DBC6A10191D8AAE003DCC3B /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		4DBC6A12191D8AC3003DCC3B /* TImeManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TImeManager.cpp; sourceTree = "<group>"; };
+		4DBC6A13191D8AC3003DCC3B /* TimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeManager.h; sourceTree = "<group>"; };
 		4DC114B51044B90D009AFC4F /* LetterDripAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LetterDripAnimation.cpp; path = HangmanGame/LetterDripAnimation.cpp; sourceTree = "<group>"; };
 		4DC114B61044B90D009AFC4F /* LetterDripAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LetterDripAnimation.h; path = HangmanGame/LetterDripAnimation.h; sourceTree = "<group>"; };
 		4DC114B81044B929009AFC4F /* LetterDisplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LetterDisplay.cpp; sourceTree = "<group>"; };
@@ -496,6 +504,8 @@
 		4DFA627810657E9500B3C987 /* ScreenFader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenFader.h; sourceTree = "<group>"; };
 		4DFA627910657E9500B3C987 /* SequenceDelayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SequenceDelayer.cpp; sourceTree = "<group>"; };
 		4DFA627A10657E9500B3C987 /* SequenceDelayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequenceDelayer.h; sourceTree = "<group>"; };
+		4DFB0280191D7D0900AC6648 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		4DFB0281191D7D0900AC6648 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Mac_SDL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mac_SDL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -505,12 +515,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */,
-				002F3C6109D0951E00EBEB88 /* GLUT.framework in Frameworks */,
+				4DBC6A0B191D8992003DCC3B /* libLinearMath.a in Frameworks */,
+				4DBC6A07191D8944003DCC3B /* libBulletDynamics.a in Frameworks */,
+				4DBC6481191D8537003DCC3B /* liblua.a in Frameworks */,
+				4DFB0283191D7D0900AC6648 /* SDL2.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				002F3C0109D093BD00EBEB88 /* OpenGL.framework in Frameworks */,
 				4DB379650FCD1C4D003140CF /* CoreData.framework in Frameworks */,
-				4D4220080FCD23FF00987B8A /* SDL_image.framework in Frameworks */,
+				4DBC6A09191D8986003DCC3B /* libBulletCollision.a in Frameworks */,
+				4DFB0282191D7D0900AC6648 /* SDL2_image.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,9 +533,12 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				002F39F909D0881F00EBEB88 /* SDL.framework */,
-				4D4220070FCD23FF00987B8A /* SDL_image.framework */,
-				002F3C6009D0951E00EBEB88 /* GLUT.framework */,
+				4DBC6A0A191D8992003DCC3B /* libLinearMath.a */,
+				4DBC6A08191D8986003DCC3B /* libBulletCollision.a */,
+				4DBC6A06191D8944003DCC3B /* libBulletDynamics.a */,
+				4DBC6480191D8537003DCC3B /* liblua.a */,
+				4DFB0280191D7D0900AC6648 /* SDL2_image.framework */,
+				4DFB0281191D7D0900AC6648 /* SDL2.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				002F3C0009D093BD00EBEB88 /* OpenGL.framework */,
 			);
@@ -671,6 +687,8 @@
 				4D11750310BB58930005A8A3 /* Camera.h */,
 				4D1174BF10BB43630005A8A3 /* ClearMetaballGrid.cpp */,
 				4D1174C010BB43630005A8A3 /* ClearMetaballGrid.h */,
+				4DBC6A0F191D8AAE003DCC3B /* Cube.cpp */,
+				4DBC6A10191D8AAE003DCC3B /* Cube.h */,
 				4D0037DA1206D19000497A2F /* DebugText.cpp */,
 				4D0037DB1206D19000497A2F /* DebugText.h */,
 				4DFA627310657E9500B3C987 /* FlipLetter.cpp */,
@@ -693,6 +711,8 @@
 				4D813284100C0A8600299333 /* IvMathLib.h */,
 				4DDE33DE10C2F8A4006C6296 /* LayerManager.cpp */,
 				4DDE33DD10C2F8A4006C6296 /* LayerManager.h */,
+				4DBC6A12191D8AC3003DCC3B /* TImeManager.cpp */,
+				4DBC6A13191D8AC3003DCC3B /* TimeManager.h */,
 				4D79F2EC10C5D48E002B6D9D /* TimerManager.h */,
 				4D79F2ED10C5D48E002B6D9D /* TimerManager.cpp */,
 				4DC114B81044B929009AFC4F /* LetterDisplay.cpp */,
@@ -719,6 +739,8 @@
 				4DFA627610657E9500B3C987 /* Perlin.h */,
 				4D308484101C41FD0080484E /* PersistentDataManager.cpp */,
 				4D308485101C41FD0080484E /* PersistentDataManager.h */,
+				4DBC6A0C191D8A62003DCC3B /* PhysicsManager.cpp */,
+				4DBC6A0D191D8A62003DCC3B /* PhysicsManager.h */,
 				4DF29C78100C3C3A00776EE7 /* PipelineTools.cpp */,
 				4DF29C79100C3C3A00776EE7 /* PipelineTools.h */,
 				4D8132E9100C0A8600299333 /* Platform.h */,
@@ -982,8 +1004,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Mac" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en,
@@ -1141,6 +1166,7 @@
 				4D890C05101EEEDF004CDE4E /* Scene.cpp in Sources */,
 				4DB7F87C102344F800F5896B /* LetterManager.cpp in Sources */,
 				4D38F0091028EFC300EA5A90 /* IvAABB.cpp in Sources */,
+				4DBC6A0E191D8A62003DCC3B /* PhysicsManager.cpp in Sources */,
 				4D38F00A1028EFC300EA5A90 /* IvBoundingSphere.cpp in Sources */,
 				4D38F00B1028EFC300EA5A90 /* IvCapsule.cpp in Sources */,
 				4D38F00C1028EFC300EA5A90 /* IvCovariance.cpp in Sources */,
@@ -1156,6 +1182,7 @@
 				4DC114BD1044B929009AFC4F /* LetterDisplayAnimation.cpp in Sources */,
 				4DF5D17B1056EDA9000FAB00 /* HangingLetterSign.cpp in Sources */,
 				4DFA627010657E6100B3C987 /* AnimationPlayer.cpp in Sources */,
+				4DBC6A14191D8AC3003DCC3B /* TImeManager.cpp in Sources */,
 				4DFA627110657E6100B3C987 /* HangmanStateDisplay.cpp in Sources */,
 				4DFA627210657E6100B3C987 /* LetterSprayAnimation.cpp in Sources */,
 				4DFA627B10657E9500B3C987 /* FlipLetter.cpp in Sources */,
@@ -1165,6 +1192,7 @@
 				4D7EB4B71070197B00E52685 /* Sound.cpp in Sources */,
 				4D7EB4B81070197B00E52685 /* SoundLoop.cpp in Sources */,
 				4D3301921072F462001C44F8 /* PoemDisplay.cpp in Sources */,
+				4DBC6A11191D8AAE003DCC3B /* Cube.cpp in Sources */,
 				4D3301981072F497001C44F8 /* BackgroundChanger.cpp in Sources */,
 				4D3301991072F497001C44F8 /* BlowTiles.cpp in Sources */,
 				4D3302151072FD30001C44F8 /* DisableInput.cpp in Sources */,
@@ -1195,16 +1223,47 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/Users/kristofe/Documents/Projects/GameEngine/SupportLibraries,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../SupportLibraries\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = TARGETMAC;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../../source/Engine/libpng",
+					"$(PROJECT_DIR)/../../source/Engine",
+					/Library/Frameworks/SDL2_image.framework/Headers,
+					"$(HOME)/Library/Frameworks/SDL2.framework/Headers",
+					/Library/Frameworks/SDL2.framework/Headers,
+					"$(HEADER_SEARCH_PATHS)",
+					"$(PROJECT_DIR)/../../source/Engine/MathLib",
+					"$(PROJECT_DIR)/../../source/Engine/bullet/src",
+					"$(PROJECT_DIR)/../../source/Engine/lua",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/BulletCollision,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/BulletDynamics,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/Apple,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/BulletMultiThreaded,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/BulletSoftBody,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/LinearMath,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/MiniCL,
+					"/Users/kristofe/Documents/Projects/GameEngine/SupportLibraries/bullet-2.82/src/BulletDynamics",
+					"/Users/kristofe/Documents/Projects/GameEngine/SupportLibraries/bullet-2.82/src/BulletCollision",
+					"/Users/kristofe/Documents/Projects/GameEngine/SupportLibraries/bullet-2.82/src/LinearMath",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = Mac_SDL;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx10.9;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -1213,21 +1272,49 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/Users/kristofe/Documents/Projects/GameEngine/SupportLibraries,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../SupportLibraries\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = TARGETMAC;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../../source/Engine/libpng",
+					"$(PROJECT_DIR)/../../source/Engine",
+					/Library/Frameworks/SDL2_image.framework/Headers,
+					"$(HOME)/Library/Frameworks/SDL2.framework/Headers",
+					/Library/Frameworks/SDL2.framework/Headers,
+					"$(HEADER_SEARCH_PATHS)",
+					"$(PROJECT_DIR)/../../source/Engine/MathLib",
+					"$(PROJECT_DIR)/../../source/Engine/bullet/src",
+					"$(PROJECT_DIR)/../../source/Engine/lua",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/BulletCollision,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/BulletDynamics,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/Apple,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/BulletMultiThreaded,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/BulletSoftBody,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/LinearMath,
+					/Users/kristofe/Documents/Projects/GameEngine/game/source/Engine/bullet/src/MiniCL,
+					"/Users/kristofe/Documents/Projects/GameEngine/SupportLibraries/bullet-2.82/src/BulletDynamics",
+					"/Users/kristofe/Documents/Projects/GameEngine/SupportLibraries/bullet-2.82/src/BulletCollision",
+					"/Users/kristofe/Documents/Projects/GameEngine/SupportLibraries/bullet-2.82/src/LinearMath",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = Mac_SDL;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx10.9;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1239,46 +1326,41 @@
 					"$(HOME)/Library/Frameworks",
 					/Library/Frameworks,
 					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(PROJECT_DIR)/../../../SupportLibraries",
 				);
-				GCC_PREPROCESSOR_DEFINITIONS = TARGET_OS_MAC;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = TARGET_OS_MAC;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../../source/Engine/libpng",
 					"$(PROJECT_DIR)/../../source/Engine",
-					/Library/Frameworks/SDL_image.framework/Headers,
-					"$(HOME)/Library/Frameworks/SDL.framework/Headers",
-					/Library/Frameworks/SDL.framework/Headers,
 					"$(HEADER_SEARCH_PATHS)",
 				);
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS = "$(ARCHS_STANDARD)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(HOME)/Library/Frameworks",
 					/Library/Frameworks,
 					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(PROJECT_DIR)/../../../SupportLibraries",
 				);
-				GCC_PREPROCESSOR_DEFINITIONS = TARGET_OS_MAC;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = TARGET_OS_MAC;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../../source/Engine/libpng",
 					"$(PROJECT_DIR)/../../source/Engine",
-					/Library/Frameworks/SDL_image.framework/Headers,
-					"$(HOME)/Library/Frameworks/SDL.framework/Headers",
-					/Library/Frameworks/SDL.framework/Headers,
 					"$(HEADER_SEARCH_PATHS)",
 				);
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 			};
 			name = Release;
 		};

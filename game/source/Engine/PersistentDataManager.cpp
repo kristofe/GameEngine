@@ -179,7 +179,7 @@ std::string PersistentData::ToString()
 	std::string str = mPath;
 	str += ":";
 	char s[32];
-	sprintf(s, "%x", (unsigned int)this);
+	sprintf(s, "%x", this);
 
 	str += s;
 	str += "\n";

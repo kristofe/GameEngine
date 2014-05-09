@@ -30,7 +30,7 @@ void TextureAnimationProcessor::Process(const char* folder, const char* inputNam
 		sprintf(imgPath,"%s_%02d.png",fullpath.c_str(),imageIndex);
 		printf("Processing %s\n",imgPath);
 		SDL_Surface* img = TextureAnimationProcessor::CreateSurfaceFromImage(imgPath);
-		SDL_SetAlpha(img,NULL,SDL_ALPHA_TRANSPARENT);
+		SDL_SetSurfaceAlphaMod(img,SDL_ALPHA_TRANSPARENT);
 		TextureAnimationProcessor::AddSurfaceToTargetSurface(target,img,currX,currY,dimPerCell);
 		currX += img->w;
 		if(currX >= dimPerFile)
@@ -45,7 +45,7 @@ void TextureAnimationProcessor::Process(const char* folder, const char* inputNam
 				imagesWrittenToTarget++;
 				SDL_FreeSurface(target);
 				target = TextureAnimationProcessor::CreateRGBASurface(dimPerFile,dimPerFile);
-				SDL_SetAlpha(target,NULL,SDL_ALPHA_TRANSPARENT);
+				SDL_SetSurfaceAlphaMod(target,SDL_ALPHA_TRANSPARENT);
 				imagesWrittenToTarget = 0;
 				imagesWaitingToBeWritten = false;
 			}
@@ -141,7 +141,8 @@ SDL_Surface* TextureAnimationProcessor::CreateRGBASurface(int width, int height)
     bmask = 0x00ff0000;
     amask = 0xff000000;
 #endif
-	return SDL_CreateRGBSurface(SDL_SWSURFACE|SDL_SRCALPHA, width, height,32, rmask, gmask, bmask, amask);
+	//return SDL_CreateRGBSurface(SDL_SWSURFACE|SDL_SRCALPHA, width, height,32, rmask, gmask, bmask, amask);
+    return SDL_CreateRGBSurface(SDL_SWSURFACE, width, height,32, rmask, gmask, bmask, amask);
 }
 
 void TextureAnimationProcessor::SaveSurfaceToPNG(SDL_Surface* target, int targetCounter,const char* outputName, const char* folder)

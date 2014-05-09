@@ -2,12 +2,11 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include <SDL.h>
-#ifdef TARGET_OS_IPHONE
-#include <SDL_opengles.h>
+#include <SDL2/SDL.h>
+#ifdef TARGETIPHONE
+    //#include <SDL2/SDL_opengles.h>
 #else
-//#include "SDL_opengl.h"
-#include "PipelineTools.h"
+    #include "PipelineTools.h"
 #endif
 
 #include "Platform.h"
@@ -44,7 +43,7 @@ void Quit(int returnCode)
 
 
 /* function to handle key press events */
-void handleKeyPress(SDL_keysym* keysym, SDL_bool pressed)
+void handleKeyPress(SDL_Keysym* keysym, SDL_bool pressed)
 {
     if (pressed==SDL_TRUE)
     {
@@ -105,12 +104,12 @@ int main(int argc, char** argv)
     }
 	
     // Select first display
-    status=SDL_SelectVideoDisplay(0);
-    if (status<0)
-    {
-        fprintf(stderr, "Can't attach to first display: %s\n", SDL_GetError());
-        exit(-1);
-    }
+    //status=SDL_SelectVideoDisplay(0);
+    //if (status<0)
+    //{
+    //    fprintf(stderr, "Can't attach to first display: %s\n", SDL_GetError());
+    //    exit(-1);
+    //}
 	
 	/*for(int i = 1; i <= 8; i++)
 	{

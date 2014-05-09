@@ -9,7 +9,7 @@
 #include "Platform.h"
 #include <algorithm>
 
-#ifdef TARGET_OS_IPHONE
+#ifdef TARGETIPHONE
 #define WINDOWPOS 0
 #define glFrustum glFrustumf
 #define glClearDepth glClearDepthf
@@ -47,7 +47,7 @@ void RendererGL::Init()
 {
 	int status = 0;
 	SetupStringToEnumDB();
-	#ifndef TARGET_OS_IPHONE
+	#ifndef TARGETIPHONE
     //Sets up OpenGL ES double buffering and visual parameters 
     SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
     SDL_GL_SetAttribute(SDL_GL_RED_SIZE, 8);
@@ -136,7 +136,7 @@ void RendererGL::Init()
 void RendererGL::Shutdown()
 {
 	/* clean up the mWindow */
-#ifndef TARGET_OS_IPHONE
+#ifndef TARGETIPHONE
     SDL_GL_DeleteContext(mGLContext);
     SDL_DestroyWindow(mWindow);
 #endif
@@ -245,7 +245,7 @@ void RendererGL::Render()
         mFrames=0;
     }
     
-	#ifndef TARGET_OS_IPHONE
+	#ifndef TARGETIPHONE
 	SDL_GL_SwapWindow(mWindow);
 	#endif
 }

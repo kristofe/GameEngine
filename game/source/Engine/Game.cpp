@@ -18,6 +18,9 @@
 #include "Platform.h"
 
 #include <stdio.h>
+
+//GOING TO HAVE TO RETURN TO THIS
+/*
 extern "C"{
 #include "lua.h" 
 #include "lualib.h" 
@@ -26,7 +29,7 @@ extern "C"{
 extern int luaopen_example(lua_State* L); // declare the wrapped module
 };
 #define LUA_EXTRALIBS {"example",luaopen_example}
-
+*/
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -75,7 +78,7 @@ void Game::Start(unsigned int time){
 	{
 		mActiveScenes[i]->Start(time);
 	}
-	TestLua();
+	//TestLua();
 }
 ////////////////////////////////////////////////////////////////////////////////
 void Game::Stop(){
@@ -367,6 +370,7 @@ void Game::DumpDebugData()
 		++it2;
 	}
 }
+/*
 ////////////////////////////////////////////////////////////////////////////////
 void Game::TestLua()
 {
@@ -391,3 +395,4 @@ void Game::TestLuaCallback()
 		printf("In TestLuaCallback() !!!!\n");
 }
 ////////////////////////////////////////////////////////////////////////////////
+ */

@@ -7,7 +7,7 @@
  *
  */
 
-#ifdef TARGET_OS_IPHONE
+#ifdef TARGETIPHONE
 #import <OpenGLES/ES1/glext.h>
 #elif WIN32
 #include <windows.h>
